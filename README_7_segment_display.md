@@ -19,10 +19,10 @@ Truth Table:
 | 1  | 0  | 0  | 1  | 1  | 1  | 1  | 0  | 0  | 1  | 1  |
 
 Expressions:
-a=A+C+(B exnor D)
-b=B'+(C exnor D)
-c=B+C'+D
-d=B'D'+CD'+B'C+BC'D
-e=B'D'+CD'
-f=A+C'D'+BD'+BC'
-g=A+CD'+(B exor C)
+|a=A+C+(B exnor D)    |
+|b=B'+(C exnor D)     |
+|c=B+C'+D             |
+|d=B'D'+CD'+B'C+BC'D  |
+|e=B'D'+CD'           |
+|f=A+C'D'+BD'+BC'     |
+|g=A+CD'+(B exor C)   |
