@@ -4,3 +4,25 @@ Counter is clocked to run from 0 to 9 and the binary valued ouput is taken which
 A,B,C,D are the literals used to design the circuit for each pin on the display.
 K-maps were used to get the equations for the circuit implementations.
 
+Truth Table:
+| A  | B  | C  | D  | a  | b  | c  | d  | e  | f  | g  |
+|----|----|----|----|----|----|----|----|----|----|----|
+| 0  | 0  | 0  | 0  | 1  | 1  | 1  | 1  | 1  | 1  | 0  |
+| 0  | 0  | 0  | 1  | 0  | 1  | 1  | 0  | 0  | 0  | 0  |
+| 0  | 0  | 1  | 0  | 1  | 1  | 0  | 1  | 1  | 0  | 1  |
+| 0  | 0  | 1  | 1  | 1  | 1  | 1  | 1  | 0  | 0  | 1  |
+| 0  | 1  | 0  | 0  | 0  | 1  | 1  | 0  | 0  | 1  | 1  |
+| 0  | 1  | 0  | 1  | 1  | 0  | 1  | 1  | 0  | 1  | 1  |
+| 0  | 1  | 1  | 0  | 1  | 0  | 1  | 1  | 1  | 1  | 1  |
+| 0  | 1  | 1  | 1  | 1  | 1  | 1  | 0  | 0  | 0  | 0  |
+| 1  | 0  | 0  | 0  | 1  | 1  | 1  | 1  | 1  | 1  | 1  |
+| 1  | 0  | 0  | 1  | 1  | 1  | 1  | 0  | 0  | 1  | 1  |
+
+Expressions:
+a=A+C+(B exnor D)
+b=B'+(C exnor D)
+c=B+C'+D
+d=B'D'+CD'+B'C+BC'D
+e=B'D'+CD'
+f=A+C'D'+BD'+BC'
+g=A+CD'+(B exor C)
