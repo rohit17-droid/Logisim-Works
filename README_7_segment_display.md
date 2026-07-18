@@ -18,7 +18,8 @@ Truth Table:
 | 1  | 0  | 0  | 0  | 1  | 1  | 1  | 1  | 1  | 1  | 1  |
 | 1  | 0  | 0  | 1  | 1  | 1  | 1  | 0  | 0  | 1  | 1  |
 
-Expressions:
+|    Expressions      |
+|---------------------|
 |a=A+C+(B exnor D)    |
 |b=B'+(C exnor D)     |
 |c=B+C'+D             |
