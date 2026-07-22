@@ -2,7 +2,7 @@ Description:
 
 This is a 4 bit ALU unit which is incomplete as of now. The aim is to select the decimal numbers from the input section of the encoder and the encoder designed converts the decimal into its equivalent BCD code.
 The 4 bit binary number is then used to perform opertaions.
-
+Then two 7 segment displays or BCD to decimal decoders shall be used to get the decimal quivalent of the result.
 
 
 Circuits implemented are:
@@ -32,3 +32,5 @@ Circuits implemented are:
 2.A proper design for Multiplier and Divider using shift registers and clocks.
 
 3.Implementing a 4:1 mux to choosee between the operations.
+
+4.To finalize and implement a proper method to display the result.
